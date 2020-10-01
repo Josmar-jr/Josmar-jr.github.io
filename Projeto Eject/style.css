@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 200vh;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #380cb3);
+    background-size: 400% 400%;
+    position: relative;
+    animation: fundo 10s ease-in-out infinite;
+}
+    /* Animação */
+@keyframes fundo {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+nav {
+    height: 8vh;
+}
+#topo ul {
+    margin: 0;
+    list-style-type: none;
+    float: left;
+}
+#topo ul li {
+    float: left;
+}
+.link-menu {
+    font-size: 1.8em;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+#topo ul li a:hover {
+    transform: scale(1.15);
+}
+#inicio {
+    margin-top: 10px;
+    clear: both;
+    text-align: center;
+    padding-top: 100px;
+    height: 85vh;
+}
+.apresentação {
+    margin: auto;
+}
+.apresentação h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+.apresentação p {
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+    font-size: 1.2em;
+}
+#sobre {
+    clear: both;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 85vh;  
+}
+#linha {
+    height: 2px;
+    background: #fff;
+}
+
+.caixa {
+    margin-top: 60px;
+    width: 60%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+.conteudo-sobre h1 {
+    padding-top: 40px;
+    font-size: 2.5em;
+}
+.conteudo-sobre p{
+    margin-top: 30px;
+    padding: 0 10px 50px 20px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+#curiosidades {
+    clear: both;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 100px;
+    height: 85vh; 
+}
+.caixa2 {
+    margin-top: 0px;
+    width: 60%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+.conteudo-curiosidades {
+    margin-top: 30px;
+    padding: 0 10px 50px 20px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.conteudo-curiosidades h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2.5em;
+}
+.conteudo-curiosidades ul {
+    margin-top: -40px;
+    padding: 0 10px 50px 20px;
+    font-size: 1.2em;
+}
+.conteudo-curiosidades li {
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+footer {
+    margin: 10px 10px;
+    text-align: center;
+}
+#contato {
+    padding-top: 10px;
+    display: inline-block;
+    margin: auto;
+    height: 8vh;
+}
+footer a {
+    float: left;
+    display: block;
+}
+footer a:hover {
+    transform: scale(1.15);
+}
+.icone {
+    clear: both;
+    max-width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 12px;
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
